@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: rgba(0, 253, 169, 0.177);
+  
+}
+h2 {
+  justify-self: center;
+  color: green;
+}
+
+.todo-grid,
+.grid-todo-input {
+  display: grid;
+  justify-self: center;
+  grid-template-columns: 150px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+  color:rgba(38, 36, 36, 0.838);
+  font-weight: 600;
+  
+}
+.todo-grid {
+  margin-bottom: 10px;
+  
+}
+.name-input,
+.due-input {
+  padding: 8px 0px;
+  outline: none;
+  border-color: rgb(7, 255, 172);
+}
+.btn-1 {
+  background-color: rgb(5, 105, 5);
+  border: none;
+  padding: 10px 0px;
+  color: white;
+  cursor: pointer;
+}
+.btn-2 {
+  background-color: rgba(68, 191, 27, 0.719);
+  border: none;
+  padding: 10px 0px;
+  color: white;
+  cursor: pointer;
+}
